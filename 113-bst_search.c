@@ -24,6 +24,5 @@ bst_t *bst_search(const bst_t *tree, int value)
 		else if (value > node->n)
 			node = node->right;
 	}
-
 	return (NULL);
 }
